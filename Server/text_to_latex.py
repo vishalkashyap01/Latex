@@ -7,8 +7,8 @@ def text_to_latex():
     """
     try:
         # Define directories for input and output
-        input_dir = "Upload"  # select which folder to input the file
-        output_dir = "Download" # select which folder to see the changes or output of the text file
+        input_dir = "Download"  # select which folder to input the file
+        output_dir = "Upload" # select which folder to see the changes or output of the text file
 
         # Get file names from the user
         input_filename = input("Enter the plain text file name (e.g., input.txt): ").strip()
