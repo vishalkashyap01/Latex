@@ -7,7 +7,7 @@ def text_to_latex():
     """
     try:
         # Define directories for input and output
-        input_dir = "Download"  # select which folder to input the file
+        input_dir = "Upload"  # select which folder to input the file
         output_dir = "Download" # select which folder to see the changes or output of the text file
 
         # Get file names from the user
@@ -97,3 +97,7 @@ def text_to_latex():
 
 # Run the function
 text_to_latex()
+
+
+# input --> upload folder
+# output <-- download folder
