@@ -1,4 +1,4 @@
-### VERSION - 0.0.3 ###
+### VERSION - 0.1.3 ###
 import re
 
 def latex_to_text(input_report, back_to_text):
