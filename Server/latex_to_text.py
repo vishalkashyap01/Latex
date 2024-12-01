@@ -25,7 +25,7 @@ def latex_to_text(input_report, back_to_text):
         print(f"Error: {e}")
 
 # usage
-output_report = "output_report.tex"  # Replace with your LaTeX file path
-back_to_text = "back_to_text.txt"  # Replace with your desired text file path
+output_report = "Download/new.tex"  # Replace with your LaTeX file path
+back_to_text = "Download/old.txt"  # Replace with your desired text file path
 
 latex_to_text(output_report, back_to_text)
