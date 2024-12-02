@@ -27,21 +27,6 @@ Identifies and corrects spelling errors in input files for better accuracy.
 - Other utilities for LaTeX parsing and spell checking
 - Version Control: Git
 
-# How to Use
-Clone the repository:
-
-git clone <repository-url>  
-cd <project-folder>  
-Install the required dependencies:
-
-pip install -r requirements.txt  
-Place your input files in the Upload folder.
-
-- Run the server script:
-
-python server/main.py  
-Processed files will be available in the Download folder after execution.
-
 # Testing
 This project has been rigorously tested with various file formats and scenarios to ensure robust performance and reliability.
 
